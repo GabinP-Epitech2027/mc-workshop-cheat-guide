@@ -3,6 +3,7 @@ package net.gabin.mcworkshop;
 import net.fabricmc.api.ModInitializer;
 
 import net.gabin.mcworkshop.block.ModBlocks;
+import net.gabin.mcworkshop.item.ModItemGroup;
 import net.gabin.mcworkshop.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,7 @@ public class MCWorkshopMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroup.registerItemGroups();
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
