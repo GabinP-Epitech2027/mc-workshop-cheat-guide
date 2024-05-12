@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "mcworkshop",
+	"version": "${version}",
+	"name": "MC Workshop",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Gabin"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/mcworkshop/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          	"net.gabin.mcworkshop.MCWorkshopMod"
+		],
+		"fabric-datagen": [
+			"net.gabin.mcworkshop.MCWorkshopModDataGenerator"
+		],
+		"client": [
+			"net.gabin.mcworkshop.MCWorkshopModClient"
+		]
+	},
+	"mixins": [
+		"mcworkshop.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
