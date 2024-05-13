@@ -1,11 +1,12 @@
-// 1.20	2024-05-13T02:42:21.9479982	MC Workshop/Model Definitions
+// 1.20	2024-05-13T09:46:46.8271541	MC Workshop/Model Definitions
 09a51e27958c839b1b851ba7c716441c57f80cd4 assets\mcworkshop\models\item\raw_pink_garnet.json
 d4c868d732c6bfaceb28ca8fcc566db8b734c234 assets\mcworkshop\blockstates\raw_pink_garnet_block.json
 46d7432621147626b90b66050829006346131ed4 assets\mcworkshop\models\block\pink_garnet_block.json
-cce5f2ec1f8f89079d59331f4e3e5e595140aeaa assets\mcworkshop\models\item\pink_garnet_ore.json
-d5cf45086aba713e403cb1dee5f5a244fd6394e5 assets\mcworkshop\models\block\pink_garnet_ore.json
 d98f6fa77e1091cc11193f1135c4ffe729fb2546 assets\mcworkshop\models\item\raw_pink_garnet_block.json
+d5cf45086aba713e403cb1dee5f5a244fd6394e5 assets\mcworkshop\models\block\pink_garnet_ore.json
+cce5f2ec1f8f89079d59331f4e3e5e595140aeaa assets\mcworkshop\models\item\pink_garnet_ore.json
 c104d76821479b9f8fbc9b54dfe6d70032146dfa assets\mcworkshop\models\item\pink_garnet.json
+5f84e8bcf9049ba622722db1bed6c1db78644e53 assets\mcworkshop\models\item\cauliflower.json
 43b65e0deebb2606d96ebd36c913ecd01f1e3848 assets\mcworkshop\blockstates\pink_garnet_ore.json
 98a8d1a0d0f02af7db3417569e75b1f999e850d1 assets\mcworkshop\models\block\raw_pink_garnet_block.json
 178c08e4c48cb6095d3bc5a4a2f04f463cbaaccd assets\mcworkshop\models\item\pink_garnet_block.json
