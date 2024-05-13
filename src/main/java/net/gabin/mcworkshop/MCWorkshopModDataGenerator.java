@@ -3,7 +3,10 @@ package net.gabin.mcworkshop;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.gabin.mcworkshop.datagen.*;
-
+import net.gabin.mcworkshop.world.ModConfiguredFeatures;
+import net.gabin.mcworkshop.world.ModPlacedFeatures;
+import net.minecraft.registry.RegistryBuilder;
+import net.minecraft.registry.RegistryKeys;
 public class MCWorkshopModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
@@ -14,6 +17,12 @@ public class MCWorkshopModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModBlockLootTableGenerator::new);
 		pack.addProvider(ModRecipeGenerator::new);
+		pack.addProvider(ModWorldGenerator::new);
+	}
 
+	@Override
+	public void buildRegistry(RegistryBuilder registryBuilder) {
+		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::boostrap);
 	}
 }

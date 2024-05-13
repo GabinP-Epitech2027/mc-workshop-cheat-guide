@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "mcworkshop:pink_garnet_ore",
+    "mcworkshop:deepslate_pink_garnet_ore",
     "#minecraft:gold_ores",
     "#minecraft:iron_ores",
     "#minecraft:diamond_ores",

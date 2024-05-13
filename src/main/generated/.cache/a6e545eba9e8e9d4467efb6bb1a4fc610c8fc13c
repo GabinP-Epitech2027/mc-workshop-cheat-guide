@@ -1,4 +1,11 @@
+<<<<<<< Updated upstream
 // 1.20	2024-05-13T12:27:02.3915281	MC Workshop/Tags for minecraft:block
 4fc48fc4bcf1327095f6d72f97b6a4bb1444b787 data\mcworkshop\tags\blocks\metal_detector_detectable_blocks.json
 7201b70c2b6ade8672da36fb9db3714b3c0afbe0 data\minecraft\tags\blocks\needs_diamond_tool.json
 de72d7a0733d484d7ea26b496a3603db27ff231e data\minecraft\tags\blocks\mineable\pickaxe.json
+=======
+// 1.20	2024-05-13T13:14:05.9673494	MC Workshop/Tags for minecraft:block
+4b0cd56400e53b5443a1f691fdcbec0546ed409b data\minecraft\tags\blocks\mineable\pickaxe.json
+655c2a4d851a83c6130e99bf66da86b74711010e data\mcworkshop\tags\blocks\metal_detector_detectable_blocks.json
+4b0cd56400e53b5443a1f691fdcbec0546ed409b data\minecraft\tags\blocks\needs_diamond_tool.json
+>>>>>>> Stashed changes

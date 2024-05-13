@@ -18,6 +18,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ModTags.Blocks.METAL_DETECTOR_DETECTABLE_BLOCKS)
                 .add(ModBlocks.PINK_GARNET_ORE)
+                .add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE)
                 .forceAddTag(BlockTags.GOLD_ORES)
                 .forceAddTag(BlockTags.IRON_ORES)
                 .forceAddTag(BlockTags.DIAMOND_ORES)
@@ -31,12 +32,18 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_GARNET_BLOCK)
                 .add(ModBlocks.RAW_PINK_GARNET_BLOCK)
                 .add(ModBlocks.PINK_GARNET_ORE)
+<<<<<<< Updated upstream
                 .add(ModBlocks.SOUND_BLOCK);
+=======
+                .add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
+>>>>>>> Stashed changes
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.PINK_GARNET_BLOCK,
                         ModBlocks.RAW_PINK_GARNET_BLOCK,
-                        ModBlocks.PINK_GARNET_ORE);
+                        ModBlocks.PINK_GARNET_ORE,
+                        ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
+
 
     }
 }

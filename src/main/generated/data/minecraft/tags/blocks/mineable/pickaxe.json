@@ -4,6 +4,10 @@
     "mcworkshop:pink_garnet_block",
     "mcworkshop:raw_pink_garnet_block",
     "mcworkshop:pink_garnet_ore",
+<<<<<<< Updated upstream
     "mcworkshop:sound_block"
+=======
+    "mcworkshop:deepslate_pink_garnet_ore"
+>>>>>>> Stashed changes
   ]
 }
