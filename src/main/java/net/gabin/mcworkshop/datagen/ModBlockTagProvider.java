@@ -30,7 +30,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.PINK_GARNET_BLOCK)
                 .add(ModBlocks.RAW_PINK_GARNET_BLOCK)
-                .add(ModBlocks.PINK_GARNET_ORE);
+                .add(ModBlocks.PINK_GARNET_ORE)
+                .add(ModBlocks.SOUND_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.PINK_GARNET_BLOCK,

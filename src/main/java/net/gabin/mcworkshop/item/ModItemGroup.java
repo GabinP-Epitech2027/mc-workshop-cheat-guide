@@ -25,6 +25,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
                         entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
                         entries.add(ModBlocks.PINK_GARNET_ORE);
+                        entries.add(ModBlocks.SOUND_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {

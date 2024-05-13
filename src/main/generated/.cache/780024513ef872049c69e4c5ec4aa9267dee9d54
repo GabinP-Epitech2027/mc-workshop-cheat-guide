@@ -1,8 +1,10 @@
-// 1.20	2024-05-13T10:44:00.8349019	MC Workshop/Model Definitions
+// 1.20	2024-05-13T12:27:02.3884767	MC Workshop/Model Definitions
 09a51e27958c839b1b851ba7c716441c57f80cd4 assets\mcworkshop\models\item\raw_pink_garnet.json
-d5cf45086aba713e403cb1dee5f5a244fd6394e5 assets\mcworkshop\models\block\pink_garnet_ore.json
 d98f6fa77e1091cc11193f1135c4ffe729fb2546 assets\mcworkshop\models\item\raw_pink_garnet_block.json
 cce5f2ec1f8f89079d59331f4e3e5e595140aeaa assets\mcworkshop\models\item\pink_garnet_ore.json
+d5cf45086aba713e403cb1dee5f5a244fd6394e5 assets\mcworkshop\models\block\pink_garnet_ore.json
+0b626cc9a3596d5f9ca325d507765e97d9f3ba52 assets\mcworkshop\models\block\sound_block.json
+f6894222dfc01e3362fcf11b2d7eebe603c3bd8e assets\mcworkshop\blockstates\sound_block.json
 5f84e8bcf9049ba622722db1bed6c1db78644e53 assets\mcworkshop\models\item\cauliflower.json
 0cb4424f640c38ac1ca6e746f7c85065d618d47a assets\mcworkshop\models\item\peat_brick.json
 178c08e4c48cb6095d3bc5a4a2f04f463cbaaccd assets\mcworkshop\models\item\pink_garnet_block.json
@@ -10,6 +12,7 @@ a671ff60cf98190abfac31554bb74a1ad0d8799f assets\mcworkshop\blockstates\pink_garn
 d4c868d732c6bfaceb28ca8fcc566db8b734c234 assets\mcworkshop\blockstates\raw_pink_garnet_block.json
 46d7432621147626b90b66050829006346131ed4 assets\mcworkshop\models\block\pink_garnet_block.json
 c104d76821479b9f8fbc9b54dfe6d70032146dfa assets\mcworkshop\models\item\pink_garnet.json
+9f8bf6bc77eaf51b392472cda60a5fd226dd67b2 assets\mcworkshop\models\item\sound_block.json
 43b65e0deebb2606d96ebd36c913ecd01f1e3848 assets\mcworkshop\blockstates\pink_garnet_ore.json
 98a8d1a0d0f02af7db3417569e75b1f999e850d1 assets\mcworkshop\models\block\raw_pink_garnet_block.json
 b2ec2c14780d10800f89403f29cdf4b7902706bd assets\mcworkshop\models\item\metal_detector.json

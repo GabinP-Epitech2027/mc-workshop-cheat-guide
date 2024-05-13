@@ -3,6 +3,7 @@
   "values": [
     "mcworkshop:pink_garnet_block",
     "mcworkshop:raw_pink_garnet_block",
-    "mcworkshop:pink_garnet_ore"
+    "mcworkshop:pink_garnet_ore",
+    "mcworkshop:sound_block"
   ]
 }
