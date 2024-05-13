@@ -32,11 +32,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_GARNET_BLOCK)
                 .add(ModBlocks.RAW_PINK_GARNET_BLOCK)
                 .add(ModBlocks.PINK_GARNET_ORE)
-<<<<<<< Updated upstream
-                .add(ModBlocks.SOUND_BLOCK);
-=======
+                .add(ModBlocks.SOUND_BLOCK)
                 .add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
->>>>>>> Stashed changes
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.PINK_GARNET_BLOCK,
