@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.gabin.mcworkshop.block.ModBlocks;
 import net.gabin.mcworkshop.item.ModItemGroup;
 import net.gabin.mcworkshop.item.ModItems;
+import net.gabin.mcworkshop.util.ModRegistries;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,5 +19,7 @@ public class MCWorkshopMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModRegistries.registerModStuffs();
 	}
 }

@@ -19,6 +19,8 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item CAULIFLOWER = registerItem("cauliflower",
             new Item(new FabricItemSettings().food(ModFoodComponents.CAULIFLOWER)));
+    public static final Item PEAT_BRICK = registerItem("peat_brick",
+            new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MCWorkshopMod.MOD_ID, name), item);
