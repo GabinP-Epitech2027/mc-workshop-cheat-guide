@@ -4,6 +4,9 @@
   "item.mcworkshop.cauliflower": "Cauliflower",
   "item.mcworkshop.peat_brick": "Peat Brick",
 
+  "item.mcworkshop.metal_detector": "Metal Detector",
+  "item.mcworkshop.metal_detector.no_valuables": "No Valuable Found",
+
   "block.mcworkshop.pink_garnet_block": "Block of Pink Garnet",
   "block.mcworkshop.pink_garnet_ore": "Pink Garnet Ore",
   "block.mcworkshop.raw_pink_garnet_block": "Block of Raw Pink Garnet",
