@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    },
+    "P": {
+      "item": "mcworkshop:pink_garnet"
+    }
+  },
+  "pattern": [
+    "###",
+    "#P#",
+    "###"
+  ],
+  "result": {
+    "item": "mcworkshop:raw_pink_garnet"
+  },
+  "show_notification": true
+}

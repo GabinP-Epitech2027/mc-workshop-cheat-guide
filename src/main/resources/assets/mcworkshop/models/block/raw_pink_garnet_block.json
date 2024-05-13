@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "mcworkshop:block/raw_pink_garnet_block"
-  }
-}
